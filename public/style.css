@@ -1,0 +1,61 @@
+:root {
+  --background-color: #3fe5f4;
+  --color: #fff;
+  --font-size: 2.5em;
+}
+a {
+  color: var(--color);
+}
+body {
+  align-items: center;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  background-color: var(--color);
+  border: 2px solid var(--color);
+  color: var(--background-color);
+  cursor: pointer;
+  font-size: 2.5em;
+  font-weight: 400;
+  height: 50px;
+  margin: 15px;
+  width: 180px;
+}
+button:active {
+  outline: 2px solid var(--color);
+}
+button:focus {
+  outline: 2px solid var(--color);
+}
+button:hover {
+  outline: 2px solid var(--color);
+}
+h1 {
+  color: var(--color);
+}
+input {
+  border: 2px solid var(--color);
+  color: var(--background-color);
+  font-size: var(--font-size);
+  height: 45px;
+  margin: 5px 0px 15px;
+}
+label {
+  color: var(--color);
+  display: block;
+  font-size: var(--font-size);
+  font-weight: 500;
+  text-align: left;
+}
+.credit {
+  color: var(--color);
+  font-size: 1.5em;
+  margin: 100px 0px 50px;
+}
+.form-buttons {
+  display: inline;
+}
